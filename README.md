@@ -29,10 +29,10 @@ Prompt → Embedding → MLP Router → Selected Adapter → Generation
 
 Most local agents use a single static LoRA. This project explores whether we can get **specialized behavior on demand** by routing between multiple adapters at inference time. Early results show promise, but label noise in the training data and embedding misalignment are current limitations.
 
-## Quick Start
+## [Quick Start](https://huggingface.co/wilson-charles-e-85/Mixture_of_Adapters)
 
 ```bash
-Follow this link to [Hugging Face](https://huggingface.co/wilson-charles-e-85/Mixture_of_Adapters) for weights and code
+Follow this link above to Hugging Face for weights and code
 cd mixture_of_adapters
 Update the config/config.yaml with correct model paths
 
