@@ -1,5 +1,5 @@
 # mixture_of_adapters
-Dynamic Mixture of Adapters prototype for loading and switching LoRA adapters at inference time.
+[Dynamic Mixture of Adapters prototype](https://huggingface.co/wilson-charles-e-85/Mixture_of_Adapters) for loading and switching LoRA adapters at inference time.
 # MoA - Mixture of Adapters (Prototype)
 
 **Dynamic adapter routing for specialized local agent behavior.**
@@ -32,7 +32,7 @@ Most local agents use a single static LoRA. This project explores whether we can
 ## Quick Start
 
 ```bash
-git clone https://github.com/charlesericwilson-portfolio/mixture_of_adapters
+Follow this link to [Hugging Face](https://huggingface.co/wilson-charles-e-85/Mixture_of_Adapters) for weights and code
 cd mixture_of_adapters
 Update the config/config.yaml with correct model paths
 
