@@ -27,13 +27,13 @@ Prompt → Embedding → MLP Router → Selected Adapter → Generation
 
 ## Why This Exists
 
-Most local agents use a single static LoRA. This project explores whether we can get **specialized behavior on demand** by routing between multiple adapters at inference time. Early results show promise, but label noise in the training data and embedding misalignment are current limitations.
+Most local agents use a single static LoRA. This project explores whether we can get **specialized behavior on demand** by routing between multiple adapters at inference time. Early results show promise, but label noise in the training data and embedding misalignment are current limitations. Will be combined with [Echo_rust_agent_proxyv5](https://github.com/charlesericwilson-portfolio/Echo_rust_agent_proxyv5)
 
 ## [Quick Start](https://huggingface.co/wilson-charles-e-85/Mixture_of_Adapters)
 
 ```bash
-Follow this link above to Hugging Face for weights and code
-cd mixture_of_adapters
+git clone https://huggingface.co/charlesericwilson/Mixture_of_Adapters
+cd Mixture_of_Adapters
 Update the config/config.yaml with correct model paths
 
 # Install Python backend (prototype)
